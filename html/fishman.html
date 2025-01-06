@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Барракуда</title>
+    <link rel="icon" href="../images/loggo16.ico" type="image/x-icon" />
+    <!-- Подключение Bootstrap -->
+    <link href="../css/superstyle.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="page-3">
+    <div class="container text-center mt-5">
+      <!-- Обложка альбома -->
+      <div>
+        <img
+          src="../images/барракуда.png"
+          alt="Album Cover"
+          class="rounded album-cover"
+        />
+      </div>
+
+      <!-- Название альбома и трека -->
+      <div class="mt-3">
+        <h3 class="fw-bold" style="color: white">СИНГЛ</h3>
+        <p style="color: white">Выбрать музыкальный сервис</p>
+      </div>
+
+      <!-- Список кнопок -->
+      <div class="mt-4">
+        <div class="d-flex flex-column align-items-center gap-2">
+          <!-- YouTube -->
+          <button
+            class="btn btn-light d-flex justify-content-between align-items-center shadow-sm custom-button mx-auto"
+            onclick="window.open('https://youtu.be/qJ-j300KEUA?si=A7NFqobRm2iinN9v')"
+          >
+            <div class="d-flex align-items-center">
+              <img src="../images/ютуб32.png" alt="YouTube" class="me-3" />
+              <span>YouTube</span>
+            </div>
+            <span class="btn btn-outline-danger btn-sm">Играть</span>
+          </button>
+
+          <!-- VK -->
+          <button
+            class="btn btn-light d-flex justify-content-between align-items-center shadow-sm custom-button mx-auto"
+            onclick="window.open('https://vk.com/music/album/-2000056933_21056933_cab9c4a26ffc98006a')"
+          >
+            <div class="d-flex align-items-center">
+              <img src="../images/вк32.png" alt="VK" class="me-3" />
+              <span>ВКонтакте</span>
+            </div>
+            <span class="btn btn-outline-primary btn-sm">Играть</span>
+          </button>
+
+          <!-- Spotify -->
+          <button
+            class="btn btn-light d-flex justify-content-between align-items-center shadow-sm custom-button mx-auto"
+            onclick="window.open('https://open.spotify.com/album/2byttZP1ZazB7qF2OiJDts?si=kiK34ucWSES9RLy0hz9HzA')"
+          >
+            <div class="d-flex align-items-center">
+              <img src="../images/спотифай32.png" alt="Spotify" class="me-3" />
+              <span>Стопифай</span>
+            </div>
+            <span class="btn btn-outline-success btn-sm">Играть</span>
+          </button>
+
+          <!-- Yandex Music -->
+          <button
+            class="btn btn-light d-flex justify-content-between align-items-center shadow-sm custom-button mx-auto"
+            onclick="window.open('https://music.yandex.ru/album/31590039')"
+          >
+            <div class="d-flex align-items-center">
+              <img
+                src="../images/яндекс32.png"
+                alt="Yandex Music"
+                class="me-3"
+              />
+              <span>Яндекс Музыка</span>
+            </div>
+            <span class="btn btn-outline-warning btn-sm">Играть</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Подключение Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
